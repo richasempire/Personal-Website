@@ -1,18 +1,22 @@
-const logotext = "JOHN";
+
+
+
+
+const logotext = "RICHA";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Richa Gupta",
+    description: " Graduate student at MIT in EECS and Design & Computation",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Richa Gupta",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love problems",
+        second: "I solve them",
+        third: "Can there be another invention like Zero?",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Graduate student at MIT in EECS and Design & Computation",
+    your_img_url: "images/Myphoto.jpg",
 };
 
 const dataabout = {
@@ -75,7 +79,7 @@ const services = [{
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
         description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link: "/project1",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
@@ -147,10 +151,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/richasempire",
+    instagram: "https://instagram.com/richasempire",
+    linkedin: "https://linkedin.com/in/richa-gupta-hi",
+    twitter: "https://twitter.com/richasempire",
 };
 export {
     meta,
