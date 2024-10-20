@@ -34,6 +34,8 @@ export const About = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
+
+ 
         <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">{dataabout.title}</h3>
@@ -60,6 +62,18 @@ export const About = () => {
                     </tr>
                   );
                 })}
+              </tbody>
+            </table>
+          </Col>
+        </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Download CV</h3>
+          </Col>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody>
+              <a href="https://docs.google.com/document/d/1fOBXwrKxNxFbujaAyTfGQ3Irt71T1m5qCVhTk282eO8/edit?usp=sharing" rel="history">Resume / CV </a>
               </tbody>
             </table>
           </Col>
