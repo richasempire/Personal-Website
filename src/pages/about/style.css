@@ -11,7 +11,30 @@
     border-color: var(--text-color) !important;
 }
 
+/* Class to add lines above and below the text */
+.skill-category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 15px 0 20px;
+    font-family: 'Raleway';
+    position: relative;
+    padding-bottom: 10px;
+}
 
+/* Add a horizontal line below the text */
+.skill-category::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px; /* Thickness of the line */
+    background-color: var(--text-color); /* Line color */
+}
+  
 
 
 .progress-title {
